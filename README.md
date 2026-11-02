@@ -16,6 +16,8 @@ We handle shift lifecycles, statutory compliance checks, rate-card margin calcul
 
 ## Open-Source Repositories
 
+- **[`msfPDF`](https://github.com/mfelisberto90/msfPDF)** [![CI](https://github.com/mfelisberto90/msfPDF/actions/workflows/ci.yml/badge.svg)](https://github.com/mfelisberto90/msfPDF/actions/workflows/ci.yml)  
+  Sub-millisecond (0.16–0.47 ms) zero-rendering-dependency `%PDF-1.4` vector document engine with 1:1 parity across **Rust**, **Web-Standard TypeScript** (`0` runtime `npm` dependencies), and a **standalone CLI**. We bypass 500 MB headless Chromium bloat and HTML/SVG SSRF risks entirely by compiling declarative JSON specs (`A4`, `Letter`, and 80 mm thermal slips) directly into pure 7-bit ASCII vector primitives, built-in Standard Type 1 `/WinAnsiEncoding` octal typography, pure `GF(256)` Reed-Solomon vector QR codes, exact minor-unit currency maths, and an atomic `0600` multi-tenant vault.
 - **[`ledger-guard`](https://github.com/mfelisberto90/ledger-guard)** [![CI](https://github.com/mfelisberto90/ledger-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/mfelisberto90/ledger-guard/actions/workflows/ci.yml)  
   My hexagonal Python 3.12 commercial order pricing, exact `Fraction` unit-of-measure conversion, and four-eyes margin-approval reference engine. We run FastAPI HTTP routes and a Model Context Protocol (`POST /mcp`) JSON-RPC tool server over the exact same `OrderService`. If your caller lacks `valuation:cost:read` or `orders:margin:read`, we strip raw cost and margin fields before serialisation while still enforcing your margin floor server-side, backed by PostgreSQL 17 `FORCE RLS` DDL and 65 OWASP ASVS Level 2 tests.
 - **[`hybridbox`](https://github.com/mfelisberto90/hybridbox)**  
